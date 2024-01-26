@@ -1,0 +1,67 @@
+:root {
+  --poppins: "Poppins", sans-serif;
+  font-size: 10px;
+  --grayscale-label: #6e7191;
+  --black: #000;
+  --primary-darkmode: #bca4ff;
+  --primary-def: #5f2eea;
+  --gray-scile: #d9dbe9;
+  --gray-scale: #f7f7fc;
+  --primary-light: #e4daff;
+  --grayscale-body: #4e4b66;
+  --white: #ffffff;
+  --primary:#CDCCFF;
+  --primary-dark: #2a00a2;
+}
+body {
+  font-family: var(--poppins);
+  font-weight: 400;
+  font-size: 1.6rem;
+  padding: 0;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-600 {
+  font-weight: 600;
+}
+* {
+  box-sizing: border-box;
+}
+img {
+  border-style: none;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+button {
+  padding: 0;
+  margin: 0;
+}
+.btn {
+  cursor: pointer;
+  padding: 26px 70px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 37px;
+  background-color: var(--primary-def);
+}
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}

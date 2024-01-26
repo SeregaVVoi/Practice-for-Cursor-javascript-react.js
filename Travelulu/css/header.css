@@ -1,0 +1,20 @@
+/* Header */
+.burger {
+  background-color: var(--primary-def);
+  width: 28px;
+  height: 4px;
+  border-radius: 30px;
+  margin-bottom: 3px;
+}
+.header_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+  border-bottom: 1px solid var(--gray-scile);
+}
+.header_top > a {
+  color: var(--primary-def, #5f2eea);
+  font-size: 3.4rem;
+  font-weight: 700;
+}
